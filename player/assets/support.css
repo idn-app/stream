@@ -1,0 +1,96 @@
+/* Custom scrollbar for chat */
+.chat-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+    background-color: #6b7280;
+    /* Tailwind gray-500 */
+    border-radius: 3px;
+}
+
+.chat-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #6b7280 transparent;
+}
+
+/* Transition for dark toggle icon */
+.dark-toggle {
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.icon-btn {
+    transition: background-color 0.3s ease;
+}
+
+.icon-btn:hover {
+    background-color: rgba(255 255 255 / 0.1);
+}
+
+/* Input with gift icon */
+.input-gift-container {
+    position: relative;
+}
+
+.input-gift-icon {
+    position: absolute;
+    right: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #9ca3af;
+    transition: color 0.3s ease;
+}
+
+.input-gift-icon:hover {
+    color: #f87171;
+    /* Tailwind red-400 */
+}
+
+.gift-button {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ef4444;
+    /* Tailwind red-500 */
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    border: none;
+}
+
+.gift-button:hover {
+    background-color: #dc2626;
+}
+
+/* Footer links hover */
+.footer-link:hover {
+    color: #ef4444;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #goldContainer {
+        display: none !important;
+    }
+
+    #darkModeToggle {
+        display: none !important;
+    }
+
+    #userAvatar {
+        display: none !important;
+    }
+
+    #streamInfoBar {
+        display: none !important;
+    }
+}
