@@ -42,21 +42,21 @@ function tampilkanChat(nama, pesan) {
     const chatBox = document.querySelector(".stream-chat");
 
     const chatContainer = document.createElement("div");
-    chatContainer.classList.add("chat-message");
+    chatContainer.className = "chat-message mb-2";
 
-    const nameElement = document.createElement("strong");
-    nameElement.classList.add("chat-name");
-    nameElement.textContent = nama + ": ";
+    const nameElement = document.createElement("div");
+    nameElement.className = "font-bold text-yellow-400";
+    nameElement.textContent = nama;
 
-    const messageElement = document.createElement("span");
-    messageElement.classList.add("chat-text");
+    const messageElement = document.createElement("div");
+    //messageElement.className = "ml-1";
     messageElement.textContent = pesan;
 
     chatContainer.appendChild(nameElement);
     chatContainer.appendChild(messageElement);
     chatBox.appendChild(chatContainer);
 
-    chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll ke bawah
+    chatBox.scrollTop = chatBox.scrollHeight;
 }
 
 // Chat form submission
