@@ -37,36 +37,3 @@ function selectTab(tab) {
 		tabChatBtn.classList.add('border-transparent', 'text-gray-400');
 	}
 }
-
-function tampilkanChat(nama, pesan) {
-    const chatBox = document.querySelector(".stream-chat");
-
-    const chatContainer = document.createElement("div");
-    chatContainer.className = "chat-message mb-2";
-
-    const nameElement = document.createElement("div");
-    nameElement.className = "font-bold text-yellow-400";
-    nameElement.textContent = nama;
-
-    const messageElement = document.createElement("div");
-    //messageElement.className = "ml-1";
-    messageElement.textContent = pesan;
-
-    chatContainer.appendChild(nameElement);
-    chatContainer.appendChild(messageElement);
-    chatBox.appendChild(chatContainer);
-
-    chatBox.scrollTop = chatBox.scrollHeight;
-}
-
-// Chat form submission
-const chatForm = document.getElementById('chatForm');
-const chatInput = document.getElementById('chatInput');
-chatForm.addEventListener('submit', (e) => {
-	e.preventDefault();
-	if (chatInput.value.trim() !== '') {
-		tampilkanChat("Kamu", chatInput.value)
-		chatInput.value = '';
-		chatInput.focus();
-	}
-});
