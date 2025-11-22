@@ -71,6 +71,11 @@
     background-color: #dc2626;
 }
 
+.loader {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
 /* Footer links hover */
 .footer-link:hover {
     color: #ef4444;
