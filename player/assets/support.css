@@ -5,7 +5,6 @@
 
 .chat-scroll::-webkit-scrollbar-thumb {
     background-color: #6b7280;
-    /* Tailwind gray-500 */
     border-radius: 3px;
 }
 
@@ -45,7 +44,6 @@
 
 .input-gift-icon:hover {
     color: #f87171;
-    /* Tailwind red-400 */
 }
 
 .gift-button {
@@ -54,7 +52,6 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: #ef4444;
-    /* Tailwind red-500 */
     border-radius: 6px;
     width: 32px;
     height: 32px;
@@ -71,32 +68,59 @@
     background-color: #dc2626;
 }
 
-/* Footer links hover */
+/* Footer */
 .footer-link:hover {
     color: #ef4444;
     cursor: pointer;
 }
 
+/* Mobile hiding */
 @media (max-width: 768px) {
-    #goldContainer {
-        display: none !important;
-    }
-
-    #darkModeToggle {
-        display: none !important;
-    }
-
-    #userAvatar {
-        display: none !important;
-    }
-
+    #goldContainer,
+    #darkModeToggle,
+    #userAvatar,
     #streamInfoBar {
         display: none !important;
     }
 }
 
-#vdw { height: 50vh !important; }
-#vdw video, media-player, media-player * {
+/* ============================
+   📌 FIX VIDEO PLAYER
+   ============================ */
+
+/* Player container fills remaining height but not overlap */
+#vdw {
+    height: calc(100vh - 260px);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Video never overlaps & keeps size */
+#vdw video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     position: relative !important;
     z-index: 1 !important;
+}
+
+/* ============================
+   📌 FIX CHAT SCROLLABLE
+   ============================ */
+
+/* Aside gets fixed height so children can scroll */
+aside {
+    height: calc(100vh - 120px);
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chat panel scrolls properly */
+#tabChat {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
 }
