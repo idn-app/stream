@@ -71,11 +71,6 @@
     background-color: #dc2626;
 }
 
-.loader {
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-}
-
 /* Footer links hover */
 .footer-link:hover {
     color: #ef4444;
@@ -98,4 +93,10 @@
     #streamInfoBar {
         display: none !important;
     }
+}
+
+#vdw { height: 50vh !important; }
+#vdw video, media-player, media-player * {
+    position: relative !important;
+    z-index: 1 !important;
 }
