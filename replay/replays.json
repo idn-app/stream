@@ -1,0 +1,914 @@
+﻿[
+    {
+        "id":  "replay-1",
+        "judul":  "Host Sweet Host",
+        "tanggal":  "Kamis, 6 Maret 2025",
+        "link":  "https://youtube.com/live/L1G_rteS4Vk"
+    },
+    {
+        "id":  "replay-2",
+        "judul":  "THE BATTLE: VOCAL QUEENS",
+        "tanggal":  "Jumat, 7 Maret 2025",
+        "link":  "https://youtube.com/live/nrA3L6YIjH8"
+    },
+    {
+        "id":  "replay-3",
+        "judul":  "CATUR ASTA",
+        "tanggal":  "Sabtu, 8 Maret 2025",
+        "link":  "https://youtube.com/live/wZCYLxtLa_I"
+    },
+    {
+        "id":  "replay-4",
+        "judul":  "JKT48 School",
+        "tanggal":  "Minggu, 9 Maret 2025",
+        "link":  "https://youtube.com/live/2VcaefX3fuA"
+    },
+    {
+        "id":  "replay-5",
+        "judul":  "Family48",
+        "tanggal":  "Kamis, 13 Maret 2025",
+        "link":  "https://youtube.com/live/9DgWaru-hEo"
+    },
+    {
+        "id":  "replay-6",
+        "judul":  "THE BATTLE: DANCING QUEENS",
+        "tanggal":  "Jumat, 14 Mar 2025",
+        "link":  "https://youtube.com/live/5zvqSXL-Aos"
+    },
+    {
+        "id":  "replay-7",
+        "judul":  "CATUR ASTA",
+        "tanggal":  "Sabtu, 15 Mar 2025",
+        "link":  "https://youtube.com/live/nELPlS-cmyA"
+    },
+    {
+        "id":  "replay-8",
+        "judul":  "JKT48 School",
+        "tanggal":  "Minggu, 16 Mar 2025",
+        "link":  "https://youtube.com/live/L4erEnWc3aU"
+    },
+    {
+        "id":  "replay-9",
+        "judul":  "CATUR ASTA",
+        "tanggal":  "Jumat, 21 Mar 2025",
+        "link":  "https://youtube.com/live/i0aceVgK4tk"
+    },
+    {
+        "id":  "replay-10",
+        "judul":  "JKT48 SCHOOL",
+        "tanggal":  "Sabtu, 22 Mar 2025",
+        "link":  "https://youtube.com/live/xgdTCUCCyb0"
+    },
+    {
+        "id":  "replay-11",
+        "judul":  "SELEKSI PMDK",
+        "tanggal":  "Minggu, 23 Mar 2025",
+        "link":  "https://youtube.com/live/yfKkNt0c4WA"
+    },
+    {
+        "id":  "replay-12",
+        "judul":  "QUIT GAME",
+        "tanggal":  "Rabu , 26 Maret 2025",
+        "link":  "https://youtube.com/live/PAIklHSKGrE"
+    },
+    {
+        "id":  "replay-13",
+        "judul":  "JKT48 SCHOOL",
+        "tanggal":  "Kamis, 27 Mar 2025",
+        "link":  "https://youtube.com/live/Bz7oWXxEZns"
+    },
+    {
+        "id":  "replay-14",
+        "judul":  "CATUR ASTA",
+        "tanggal":  "Jumat, 28 Mar 2025",
+        "link":  "https://youtube.com/live/Gnvk3hEuxo8"
+    },
+    {
+        "id":  "replay-15",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Kamis, 10 Apr 2025",
+        "link":  "https://youtube.com/live/ItAnrVWAUZk"
+    },
+    {
+        "id":  "replay-16",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Jumat, 11 Apr 2025",
+        "link":  "https://youtube.com/live/626UqF6kpPQ"
+    },
+    {
+        "id":  "replay-17",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Sabtu, 12 Apr 2025",
+        "link":  "https://youtube.com/live/igWR6ee9Vok"
+    },
+    {
+        "id":  "replay-18",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Sabtu, 12 Apr 2025",
+        "link":  "https://youtube.com/live/iLOMVvCqgHk"
+    },
+    {
+        "id":  "replay-19",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Minggu, 13 Apr 2025",
+        "link":  "https://youtube.com/live/a3Uv4EeLrbE"
+    },
+    {
+        "id":  "replay-21",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Rabu, 16 Apr 2025",
+        "link":  "https://youtube.com/live/JvA2wYp8GUM"
+    },
+    {
+        "id":  "replay-22",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Kamis, 17 Apr 2025",
+        "link":  "https://youtube.com/live/zfXv3Jzf4A8"
+    },
+    {
+        "id":  "replay-23",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Sabtu, 19 Apr 2025",
+        "link":  "https://youtube.com/live/dRrLJRL8OjM"
+    },
+    {
+        "id":  "replay-24",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Sabtu, 19 Apr 2025",
+        "link":  "https://youtube.com/live/BdGFgkkBl6g"
+    },
+    {
+        "id":  "replay-25",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Kamis, 24 April 2025",
+        "link":  "https://youtube.com/live/W8Lu9I7eLHE"
+    },
+    {
+        "id":  "replay-26",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Jumat, 25 April 2025",
+        "link":  "https://youtube.com/live/BnR3bymhF4E"
+    },
+    {
+        "id":  "replay-27",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Sabtu, 26 April 2025",
+        "link":  "https://youtube.com/live/mKjLok456dU"
+    },
+    {
+        "id":  "replay-28",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Sabtu, 26 April 2025",
+        "link":  "https://youtube.com/live/NFIYed9eWGs"
+    },
+    {
+        "id":  "replay-29",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Minggu, 27 April 2025",
+        "link":  "https://youtube.com/live/5UboiedoCa8"
+    },
+    {
+        "id":  "replay-30",
+        "judul":  "KIDS DAY: JKT48 Special Theater Kids",
+        "tanggal":  "Minggu, 27 April 2025",
+        "link":  "https://youtube.com/live/bFfjL3UgUag"
+    },
+    {
+        "id":  "replay-31",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Kamis, 1 Mei 2025",
+        "link":  "https://youtube.com/live/CtpjHr9LYB8"
+    },
+    {
+        "id":  "replay-32",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Jumat, 2 Mei 2025",
+        "link":  "https://youtube.com/live/BmVwJpc2cyU"
+    },
+    {
+        "id":  "replay-33",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Sabtu, 3 Mei 2025",
+        "link":  "https://youtube.com/live/KfIFO51kA-U"
+    },
+    {
+        "id":  "replay-34",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Minggu, 4 Mei 2025",
+        "link":  "https://youtube.com/live/oh4Ca68N13M"
+    },
+    {
+        "id":  "replay-35",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Minggu, 4 Mei 2025",
+        "link":  "https://youtube.com/live/NeoDRnP1aIY"
+    },
+    {
+        "id":  "replay-36",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Kamis, 8 Mei 2025",
+        "link":  "https://youtube.com/live/jYu8OiFghpM"
+    },
+    {
+        "id":  "replay-37",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Jumat, 9 Mei 2025",
+        "link":  "https://youtube.com/live/uVkGp-hmr7A"
+    },
+    {
+        "id":  "replay-38",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Sabtu, 10 Mei 2025",
+        "link":  "https://youtube.com/live/Jv2hGCR6mg0"
+    },
+    {
+        "id":  "replay-39",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Minggu, 11 Mei 2025",
+        "link":  "https://youtube.com/live/GBH6pCNDbkc"
+    },
+    {
+        "id":  "replay-40",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Minggu, 11 Mei 2025",
+        "link":  "https://youtube.com/live/Ld7Afq0iDDQ"
+    },
+    {
+        "id":  "replay-41",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Kamis, 15 Mei 2025",
+        "link":  "https://youtube.com/live/xDbjY14kqMw"
+    },
+    {
+        "id":  "replay-42",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Jumat, 16 Mei 2025",
+        "link":  "https://youtube.com/live/RSiq3jje_v8"
+    },
+    {
+        "id":  "replay-43",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Sabtu, 17 Mei 2025",
+        "link":  "https://youtube.com/live/qtiTsAECiKo"
+    },
+    {
+        "id":  "replay-44",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Sabtu, 17 Mei 2025",
+        "link":  "https://youtube.com/live/QeczfJmUiYs"
+    },
+    {
+        "id":  "replay-45",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Minggu, 18 Mei 2025",
+        "link":  "https://youtube.com/live/YkE0uuT4ieQ"
+    },
+    {
+        "id":  "replay-46",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Minggu, 18 Mei 2025",
+        "link":  "https://youtube.com/live/Z8vuuGOahlM"
+    },
+    {
+        "id":  "replay-47",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Kamis, 22 Mei 2025",
+        "link":  "https://youtube.com/live/YQFS_8ja0RY"
+    },
+    {
+        "id":  "replay-48",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Jumat, 23 Mei 2025",
+        "link":  "https://youtube.com/live/7z34mswSlCU"
+    },
+    {
+        "id":  "replay-49",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Sabtu, 24 Mei 2025",
+        "link":  "https://youtube.com/live/SY8mwFDrxpM"
+    },
+    {
+        "id":  "replay-50",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Sabtu, 24 Mei 2025",
+        "link":  "https://youtube.com/live/p8zh_mK16wA"
+    },
+    {
+        "id":  "replay-51",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Minggu, 25 Mei 2025",
+        "link":  "https://youtube.com/live/_XuASZvxWEY"
+    },
+    {
+        "id":  "replay-52",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Minggu, 25 Mei 2025",
+        "link":  "https://youtube.com/live/cu-huZTkq4g"
+    },
+    {
+        "id":  "replay-53",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Kamis, 29 Mei 2025",
+        "link":  "https://youtube.com/live/IWaXyDh_ftI"
+    },
+    {
+        "id":  "replay-54",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Jumat, 30 Mei 2025",
+        "link":  "https://youtube.com/live/5Oq9lzAMFbA"
+    },
+    {
+        "id":  "replay-55",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Sabtu, 31 Mei 2025",
+        "link":  "https://youtube.com/live/x6sCrSaqegc"
+    },
+    {
+        "id":  "replay-56",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Sabtu, 31 Mei 2025",
+        "link":  "https://youtube.com/live/vOOp5s5Pw9g"
+    },
+    {
+        "id":  "replay-57",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Rabu, 4 Jun 2025",
+        "link":  "https://youtube.com/live/FXwmcX0lHqM"
+    },
+    {
+        "id":  "replay-58",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Sabtu, 7 Jun 2025",
+        "link":  "https://youtube.com/live/2tgMcrkqbyw"
+    },
+    {
+        "id":  "replay-59",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Sabtu, 7 Jun 2025",
+        "link":  "https://youtube.com/live/5i-bO7FgPSA"
+    },
+    {
+        "id":  "replay-60",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Minggu, 8 Jun 2025",
+        "link":  "https://youtube.com/live/mo-ajeXFunE"
+    },
+    {
+        "id":  "replay-61",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Kamis, 12 Jun 2025",
+        "link":  "https://youtube.com/live/ipp70e2KLWU"
+    },
+    {
+        "id":  "replay-62",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Jumat, 13 Jun 2025",
+        "link":  "https://youtube.com/live/vaEpemcXICI"
+    },
+    {
+        "id":  "replay-63",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Sabtu, 14 Jun 2025",
+        "link":  "https://youtube.com/live/wygcMeqmUa8"
+    },
+    {
+        "id":  "replay-64",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Sabtu, 14 Jun 2025",
+        "link":  "https://youtube.com/live/2wRzUUQUYF0"
+    },
+    {
+        "id":  "replay-65",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "| Kamis, 19 Jun 2025",
+        "link":  "https://youtube.com/live/17NRHBssZZA"
+    },
+    {
+        "id":  "replay-66",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "Jumat, 20 Jun 2025",
+        "link":  "https://youtube.com/live/GlvyvrcCzhE"
+    },
+    {
+        "id":  "replay-67",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Sabtu, 21 Jun 2025",
+        "link":  "https://youtube.com/live/2aX5lpAvjkA"
+    },
+    {
+        "id":  "replay-68",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "22 Jun 2025",
+        "link":  "https://youtube.com/live/mcLmupsBBeM"
+    },
+    {
+        "id":  "replay-69",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Kamis, 26 Jun 2025",
+        "link":  "https://youtube.com/live/0hOZODCOkQ8"
+    },
+    {
+        "id":  "replay-70",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Jumat, 27 Jun 2025",
+        "link":  "https://youtube.com/live/jiXBwvPJLpQ"
+    },
+    {
+        "id":  "replay-71",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Sabtu, 28 Jun 2025",
+        "link":  "https://youtube.com/live/0H-fjO7TKqw"
+    },
+    {
+        "id":  "replay-72",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Mingu , 29 Jun 2025",
+        "link":  "https://youtube.com/live/CywkbnwoTns"
+    },
+    {
+        "id":  "replay-73",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Rabu, 2 Jul 2025",
+        "link":  "https://youtube.com/live/aIvY9Qk6b8U"
+    },
+    {
+        "id":  "replay-74",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Kamis, 3 Jul 2025",
+        "link":  "https://youtube.com/live/ho9Ih2n-fds"
+    },
+    {
+        "id":  "replay-75",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Rabu, 16 Jul 2025",
+        "link":  "https://youtube.com/live/G8GMjsqWvZs"
+    },
+    {
+        "id":  "replay-76",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Kamis, 17 Jul 2025",
+        "link":  "https://youtube.com/live/KxNP_Grtrj8"
+    },
+    {
+        "id":  "replay-77",
+        "judul":  "Konser Full House",
+        "tanggal":  "26 Juli 2025",
+        "link":  "https://youtube.com/live/tTIXFJhzEK0"
+    },
+    {
+        "id":  "replay-78",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Rabu, 30 Jul 2025",
+        "link":  "https://youtube.com/live/kezkPEYD9_w"
+    },
+    {
+        "id":  "replay-79",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "Kamis, 31 Jul 2025",
+        "link":  "https://youtube.com/live/tCPp3Pb5O98"
+    },
+    {
+        "id":  "replay-80",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "Jumat, 1 Ags 2025",
+        "link":  "https://youtube.com/live/ozHQ7RZmwWI"
+    },
+    {
+        "id":  "replay-81",
+        "judul":  "Pajama Drive",
+        "tanggal":  "Sabtu, 2 Ags 2025",
+        "link":  "https://youtube.com/live/RaXSh7qVZoI"
+    },
+    {
+        "id":  "replay-82",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "Minggu, 3 Ags 2025",
+        "link":  "https://youtube.com/live/0LmuYKRWvAQ"
+    },
+    {
+        "id":  "replay-90",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "20 Nov 2025",
+        "link":  "https://www.youtube.com/watch?v=K6oL2uEO1Ew"
+    },
+    {
+        "id":  "replay-91",
+        "judul":  "KIRA KIRA GIRLS",
+        "tanggal":  "21 Nov 2025",
+        "link":  "https://youtu.be/kpL4d5XCG4Q"
+    },
+    {
+        "id":  "replay-92",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "22 Nov 2025",
+        "link":  "https://youtu.be/LXNgBN4Zm5I"
+    },
+    {
+        "id":  "replay-93",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "23 Nov 2025",
+        "link":  "https://youtu.be/fabRPia5jLw"
+    },
+    {
+        "id":  "replay-94",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "27 Nov 2025",
+        "link":  "https://youtu.be/1OstxvCm_Bg"
+    },
+    {
+        "id":  "replay-95",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "28 Nov 2025",
+        "link":  "https://youtu.be/wOqABu4C-10"
+    },
+    {
+        "id":  "replay-96",
+        "judul":  "KIRA KIRA GIRLS",
+        "tanggal":  "29 Nov 2025",
+        "link":  "https://youtu.be/LNhXUGjhf1I"
+    },
+    {
+        "id":  "replay-97",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "30 Nov 2025",
+        "link":  "https://youtu.be/EO8VMzIWuWs"
+    },
+    {
+        "id":  "replay-98",
+        "judul":  "KIRA KIRA GIRLS",
+        "tanggal":  "30 Nov 2025",
+        "link":  "https://youtu.be/pHBVXb-lgFU"
+    },
+    {
+        "id":  "replay-99",
+        "judul":  "KIRA KIRA GIRLS",
+        "tanggal":  "04 Des 2025",
+        "link":  "https://youtu.be/V9YdZXk-CGw"
+    },
+    {
+        "id":  "replay-100",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "05 Des 2025",
+        "link":  "https://youtu.be/q-n7do09YjM"
+    },
+    {
+        "id":  "replay-101",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "06 Des 2025",
+        "link":  "https://youtu.be/Stx6shmwq6g"
+    },
+    {
+        "id":  "replay-102",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "07 Des 2025",
+        "link":  "https://youtu.be/7a0J09gw1rM"
+    },
+    {
+        "id":  "replay-103",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "10 Des 2025",
+        "link":  "https://youtu.be/SusTyYzxKkI"
+    },
+    {
+        "id":  "replay-104",
+        "judul":  "KIRA KIRA GIRLS",
+        "tanggal":  "11 Des 2025",
+        "link":  "https://youtu.be/V9qFB_kpQYA"
+    },
+    {
+        "id":  "replay-105",
+        "judul":  "Ingin Bertemu",
+        "tanggal":  "12 Des 2025",
+        "link":  "https://youtu.be/Rkm3zAbWQ-s"
+    },
+    {
+        "id":  "replay-106",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "13 Des 2025",
+        "link":  "https://youtu.be/2Bp3rPdk5FE"
+    },
+    {
+        "id":  "replay-107",
+        "judul":  "THE FIRST SNOW | 14th Anniversary Concert",
+        "tanggal":  "20 Des 2025",
+        "link":  "https://youtu.be/c7G0npP9jnw"
+    },
+    {
+        "id":  "replay-108",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "22 Des 2025",
+        "link":  "https://youtu.be/KQzUMos2j_c"
+    },
+    {
+        "id":  "replay-109",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "23 Des 2025",
+        "link":  "https://youtu.be/HWHvaA7EX9M"
+    },
+    {
+        "id":  "replay-110",
+        "judul":  "Aturan Anti Cinta",
+        "tanggal":  "26 Des 2025",
+        "link":  "https://youtu.be/LDklYK8MfJo"
+    },
+    {
+        "id":  "replay-111",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "27 Des 2025",
+        "link":  "https://youtu.be/1BaynxUrgNk"
+    },
+    {
+        "id":  "replay-112",
+        "judul":  "KIRA KIRA GIRLS",
+        "tanggal":  "28 Des 2025",
+        "link":  "https://youtu.be/GpJcAx20z9Y"
+    },
+    {
+        "id":  "replay-113",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "28 Des 2025",
+        "link":  "https://youtu.be/i2yal0CANdg"
+    },
+    {
+        "id":  "replay-114",
+        "judul":  "Pertaruhan Cinta STS: Danella",
+        "tanggal":  "8 Januari 2026",
+        "link":  "https://youtu.be/TjpCZFZcSPk"
+    },
+    {
+        "id":  "replay-115",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "9 Januari 2026",
+        "link":  "https://youtu.be/E_9-QhdxfMk"
+    },
+    {
+        "id":  "replay-116",
+        "judul":  "Sambil Menggandeng Erat Tanganku STS: Amanda",
+        "tanggal":  "10 Januari 2026",
+        "link":  "https://youtu.be/4-1ICbk7_7o"
+    },
+    {
+        "id":  "replay-117",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "11 Januari 2026",
+        "link":  "https://youtu.be/S2Chzmimx1s"
+    },
+    {
+        "id":  "replay-118",
+        "judul":  "Cara Meminum Ramune LADIES NIGHT",
+        "tanggal":  "15 Januari 2026",
+        "link":  "https://youtu.be/XsgSfmxC5sI"
+    },
+    {
+        "id":  "replay-119",
+        "judul":  "Sambil Menggandeng Erat Tanganku STS: Ribka",
+        "tanggal":  "16 Januari 2026",
+        "link":  "https://youtu.be/TiNuSM0R6CI"
+    },
+    {
+        "id":  "replay-120",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "17 Januari 2026",
+        "link":  "https://youtu.be/uGvYz8Abxg4"
+    },
+    {
+        "id":  "replay-121",
+        "judul":  "Sambil Menggandeng Erat Tanganku STS: Greesel",
+        "tanggal":  "18 Januari 2026",
+        "link":  "https://youtu.be/fT0Gogbc3r8"
+    },
+    {
+        "id":  "replay-122",
+        "judul":  "Pertaruhan Cinta STS: Marsha",
+        "tanggal":  "18 Januari 2026",
+        "link":  "https://youtu.be/nH9DFWMFMFI"
+    },
+    {
+        "id":  "replay-123",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "22 Januari 2026",
+        "link":  "https://youtu.be/vNaspjgP5HE"
+    },
+    {
+        "id":  "replay-124",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "23 Januari 2026",
+        "link":  "https://youtu.be/79UZWTkYlgg"
+    },
+    {
+        "id":  "replay-125",
+        "judul":  "Sambil Menggandeng Erat Tanganku STS Levi",
+        "tanggal":  "24 Januari 2026",
+        "link":  "https://youtu.be/ZZl95CXxYD8"
+    },
+    {
+        "id":  "replay-126",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "25 Januari 2026",
+        "link":  "https://youtu.be/emDD--_EBVY"
+    },
+    {
+        "id":  "replay-127",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "25 Januari 2026",
+        "link":  "https://youtu.be/f5FnXehDC-Q"
+    },
+    {
+        "id":  "replay-128",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "29 Januari 2026",
+        "link":  "https://youtu.be/UY7hWtCJFlI"
+    },
+    {
+        "id":  "replay-129",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "30 Januari 2026",
+        "link":  "https://youtu.be/EcP7-2By68E"
+    },
+    {
+        "id":  "replay-130",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "31 Januari 2026",
+        "link":  "https://youtu.be/Gmx-0wgnx04"
+    },
+    {
+        "id":  "replay-131",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "1 Februari 2026",
+        "link":  "https://youtu.be/dMDLR5lFJ38"
+    },
+    {
+        "id":  "replay-132",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "5 Feb 2026",
+        "link":  "https://youtu.be/WyeDY3tV9-8"
+    },
+    {
+        "id":  "replay-133",
+        "judul":  "Cara Meminum Ramune",
+        "tanggal":  "6 Feb 2026",
+        "link":  "https://youtu.be/1Ni0SkZ73UM"
+    },
+    {
+        "id":  "replay-134",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "7 Feb 2026",
+        "link":  "https://youtu.be/ABWmcNRvGlg"
+    },
+    {
+        "id":  "replay-135",
+        "judul":  "Cara Meminum Ramune STS Fiony",
+        "tanggal":  "8 Feb 2026",
+        "link":  "https://youtu.be/T0tjQ5WmYyM"
+    },
+    {
+        "id":  "replay-136",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "12 Feb 2026",
+        "link":  "https://youtu.be/ZdIFhq1t-qQ"
+    },
+    {
+        "id":  "replay-137",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "13 Feb 2026",
+        "link":  "https://youtu.be/x8_-Pl6und0"
+    },
+    {
+        "id":  "replay-138",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "14 Feb 2026",
+        "link":  "https://youtu.be/zb_2D_LfnuU"
+    },
+    {
+        "id":  "replay-140",
+        "judul":  "Cara Meminum Ramune STS Trisha",
+        "tanggal":  "16 Feb 2026",
+        "link":  "https://youtu.be/hiDkxWzn-pU"
+    },
+    {
+        "id":  "replay-141",
+        "judul":  "Z VS ALPHA",
+        "tanggal":  "21 Feb 2026",
+        "link":  "https://youtu.be/CkzO8P0OxHo"
+    },
+    {
+        "id":  "replay-142",
+        "judul":  "JKT48 SCHOOL",
+        "tanggal":  "22 Feb 2026",
+        "link":  "https://youtu.be/R3Q2RbuvYIE"
+    },
+    {
+        "id":  "replay-143",
+        "judul":  "SELEKSI PMDK 2026",
+        "tanggal":  "26 Feb 2026",
+        "link":  "https://youtu.be/X6DB_5sS-RU"
+    },
+    {
+        "id":  "replay-144",
+        "judul":  "ANDAI âKU BUKAN IDOLA",
+        "tanggal":  "27 Feb 2026",
+        "link":  "https://youtu.be/yAVaX_gjElU"
+    },
+    {
+        "id":  "replay-145",
+        "judul":  "JKT48 FIGHT: LOVE DREAM PASSION",
+        "tanggal":  "28 Feb 2026",
+        "link":  "https://youtu.be/0VWS2leDPcI"
+    },
+    {
+        "id":  "replay-146",
+        "judul":  "JKT48 SCHOOL",
+        "tanggal":  "1 Mar 2026",
+        "link":  "https://youtu.be/tHvI8-L6QiA"
+    },
+    {
+        "id":  "replay-138",
+        "judul":  "JKT48 FIGHT: LOVE DREAM PASSION",
+        "tanggal":  "4 Mar 2026",
+        "link":  "https://youtu.be/QlFY1AJoF_U"
+    },
+    {
+        "id":  "replay-139",
+        "judul":  "THE CHALLENGERS",
+        "tanggal":  "5 Mar 2026",
+        "link":  "https://youtu.be/VqdV0L4tdfE"
+    },
+    {
+        "id":  "replay-140",
+        "judul":  "ANDAI âKU BUKAN IDOLA",
+        "tanggal":  "6 Mar 2026",
+        "link":  "https://youtu.be/lIT0iNCh23Q"
+    },
+    {
+        "id":  "replay-141",
+        "judul":  "JKT48 SCHOOL",
+        "tanggal":  "8 Mar 2026",
+        "link":  "https://youtu.be/LCw-4KqGATQ"
+    },
+    {
+        "id":  "replay-142",
+        "judul":  "JKT48 FIGHT: LOVE DREAM PASSION",
+        "tanggal":  "13 Mar 2026",
+        "link":  "https://youtu.be/FjxhKhYXr5o"
+    },
+    {
+        "id":  "replay-143",
+        "judul":  "SELEKSI PMDK 2026",
+        "tanggal":  "14 Mar 2026",
+        "link":  "https://youtu.be/SPksbWxzTg0"
+    },
+    {
+        "id":  "replay-144",
+        "judul":  "JKT48 SCHOOL",
+        "tanggal":  "15 Mar 2026",
+        "link":  "https://youtu.be/xADcwGehI5Y"
+    },
+    {
+        "id":  "replay-145",
+        "judul":  "ANDAI âKU BUKAN IDOLA",
+        "tanggal":  "16 Mar 2026",
+        "link":  "https://youtu.be/hK6DCNFz0QQ"
+    },
+    {
+        "id":  "replay-146",
+        "judul":  "Pertaruhan Cinta STS Olla",
+        "tanggal":  "28 Mar 2026",
+        "link":  "https://youtu.be/rYOYWnTQdR0"
+    },
+    {
+        "id":  "replay-147",
+        "judul":  "Cara Meminum Ramune STS Kimmy",
+        "tanggal":  "28 Mar 2026",
+        "link":  "https://youtu.be/IWcm96SoRks"
+    },
+    {
+        "id":  "replay-148",
+        "judul":  "Pertaruhan Cinta Last Show Amanda",
+        "tanggal":  "29 Mar 2026",
+        "link":  "https://youtu.be/Ugr4X9Zzq4A"
+    },
+    {
+        "id":  "replay-149",
+        "judul":  "Pertaruhan Cinta",
+        "tanggal":  "1 Apr 2026",
+        "link":  "https://youtu.be/vLOa9oMKaP0"
+    },
+    {
+        "id":  "replay-150",
+        "judul":  "Pertaruhan Cinta STS Indah",
+        "tanggal":  "4 Apr 2026",
+        "link":  "https://youtu.be/ALiLwvTGfr8"
+    },
+    {
+        "id":  "replay-151",
+        "judul":  "Sambil Menggandeng Erat Tanganku",
+        "tanggal":  "10 April 2026",
+        "link":  "https://youtu.be/af99CrZXLk0"
+    },
+    {
+        "id":  "replay-152",
+        "judul":  "Passion 200%",
+        "tanggal":  "11 April 2026",
+        "link":  "https://youtu.be/xqXrd8la7Og"
+    }
+]
