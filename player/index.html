@@ -18,7 +18,7 @@
   var tunggu = setInterval(function () {
     var v = document.querySelector('#my-player video');
     var p = document.querySelector('#vdw .pemuat');
-    if (v && v.readyState >= 2) {
+    if (window.__ytSiap || (v && v.readyState >= 2)) {
       if (p) p.remove();
       clearInterval(tunggu);
     }
@@ -26,6 +26,7 @@
 
   setTimeout(function () {
     var tunggu2 = setInterval(function () {
+      if (window.__modeYT) { clearInterval(tunggu2); return; }
       var kotak = document.getElementById('vdw');
       if (!kotak || document.getElementById('pesan-lambat')) return;
       var v = document.querySelector('#my-player video');
@@ -49,4 +50,37 @@
     kotak.appendChild(p);
   });
 })();
-</script><script src=https://cdnjs.cloudflare.com/ajax/libs/chance/1.1.13/chance.min.js></script><script src=player.js defer type=module></script>
+</script><script src=https://cdnjs.cloudflare.com/ajax/libs/chance/1.1.13/chance.min.js></script><script type=module>
+/* mode cadangan: kalau payload berisi link YouTube, pakai provider YouTube vidstack (player.js di-skip) */
+(function(){
+  var KEY='StopCopycat';
+  function pesanHash(){
+    try{
+      var h=(location.hash||'').slice(1);
+      if(!h||/[^0-9a-f]/i.test(h))return '';
+      var b=h.match(/.{2}/g).map(function(x){return parseInt(x,16)});
+      return b.map(function(x,i){return String.fromCharCode(x^KEY.charCodeAt(i%KEY.length))}).join('');
+    }catch(e){return ''}
+  }
+  var m=pesanHash().match(/(?:youtube\.com\/(?:watch\?(?:[^#\s]*&)?v=|embed\/|live\/|shorts\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/);
+  var mp=document.getElementById('my-player');
+  if(m&&mp){
+    window.__modeYT=m[1];
+    var bun=document.createElement('script');bun.type='module';
+    bun.src='https://cdn.jsdelivr.net/npm/@vidstack/cdn@1.15.6/player.js';
+    bun.onload=function(){
+      var buka=function(){
+        try{var el=document.getElementById('my-player');el&&el.play&&el.play().catch(function(){})}catch(e){}
+        window.__ytSiap=true;
+        var pm=document.querySelector('#vdw .pemuat');if(pm)pm.remove();
+      };
+      try{mp.addEventListener('can-play',buka,{once:true})}catch(e){}
+      buka();
+    };
+    mp.setAttribute('src','youtube/'+m[1]);
+    document.head.appendChild(bun);
+  }else{
+    var s=document.createElement('script');s.type='module';s.src='player.js';document.body.appendChild(s);
+  }
+})();
+</script>
