@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>[LIVE] JKT48 Theater by Gemes.in</title>
+<link href="https://www.idn.app/img/logo-idn.png" rel="icon" type="image/x-icon">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: #14171a; color: #d1d5db;
+    font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex; flex-direction: column;
+  }
+  header { background: #2c2e31; border-bottom: 1px solid #374151; padding: 12px 20px; display: flex; align-items: center; gap: 10px; }
+  header img { height: 26px; }
+  header h1 { font-size: 14px; font-weight: 700; margin: 0; color: #e5e7eb; }
+  main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 16px; }
+  .bingkai { width: 100%; max-width: 1100px; aspect-ratio: 16/9; background: #000; border-radius: 10px; overflow: hidden; position: relative; }
+  .bingkai iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .pesan { max-width: 640px; text-align: center; line-height: 1.6; }
+  .pesan b { color: #e5e7eb; }
+  footer { padding: 10px 20px 18px; font-size: 11px; color: #6b7280; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <img src="https://www.idn.app/img/logo-idn.png" alt="">
+  <h1>JKT48 Theater — Gemes.in</h1>
+</header>
+<main id="isi">
+  <div class="pesan">Memuat siaran…</div>
+</main>
+<footer>Mode cadangan. Kalau ada kendala, hubungi admin.</footer>
+<script>
+  // Halaman cadangan YouTube. Dipakai kalau siaran IDN tidak bisa diputar dan
+  // admin mengarahkan link pembeli ke YouTube lewat /addstreamlink.
+  // Link: /player/yt.html?v=<videoId>&inv=<invoice>
+  const params = new URLSearchParams(location.search);
+  const videoId = (params.get('v') || "").trim();
+  const isi = document.getElementById("isi");
+
+  if (!/^[A-Za-z0-9_-]{11}$/.test(videoId)) {
+    isi.innerHTML = '<div class="pesan"><b>Link tidak lengkap.</b><br>Minta link baru ke admin ya.</div>';
+  } else {
+    const bingkai = document.createElement("div");
+    bingkai.className = "bingkai";
+
+    const iframe = document.createElement("iframe");
+    iframe.src = "https://www.youtube-nocookie.com/embed/" + videoId +
+      "?autoplay=1&playsinline=1&rel=0&modestbranding=1";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen";
+    iframe.allowFullscreen = true;
+    iframe.referrerPolicy = "origin";
+    iframe.title = "Siaran cadangan";
+    bingkai.appendChild(iframe);
+
+    isi.replaceChildren(bingkai);
+  }
+</script>
+</body>
+</html>
