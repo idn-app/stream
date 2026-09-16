@@ -66,6 +66,9 @@
   var mp=document.getElementById('my-player');
   if(m&&mp){
     window.__modeYT=m[1];
+    /* siaran langsung harus ditandai live: kalau tidak, provider anggap VOD
+       (durasi = jendela DVR) lalu lompat ke ujung = layar hitam */
+    if(/\/live\/|live=1/i.test(m[0])) mp.setAttribute('stream-type','live');
     var bun=document.createElement('script');bun.type='module';
     bun.src='https://cdn.jsdelivr.net/npm/@vidstack/cdn@1.15.6/player.js';
     bun.onload=function(){
