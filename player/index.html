@@ -88,11 +88,8 @@
     mp.setAttribute('src','youtube/'+m[1]);
     document.head.appendChild(bun);
   }else{
-    /* Panaskan jalur playlist lebih awal: worker + cache tanda tangan + DNS/TLS ke idn-play
-       siap sebelum player.js (288KB) selesai diunduh, jadi pemutaran tidak menunggu dua kali. */
-    var isi=pesanHash();
-    var mu=(isi.split('#')[2]||'').trim();
-    if(mu&&/^https?:/i.test(mu)){try{fetch(mu,{mode:'cors',credentials:'omit'}).catch(function(){})}catch(e){}}
+    /* Pemanas playlist sudah dikerjakan di <head> (sebelum parser selesai) — jangan diulang di sini:
+       dua permintaan untuk URL bertanda tangan yang sama bisa saling memakan tiket. */
     var s=document.createElement('script');s.type='module';s.src='player.js';document.body.appendChild(s);
   }
 })();
