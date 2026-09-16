@@ -20,6 +20,10 @@
     var p = document.querySelector('#vdw .pemuat');
     if (window.__ytSiap || (v && v.readyState >= 2)) {
       if (p) p.remove();
+      /* Pesan "masih dimuat" bisa muncul duluan (jaringan lambat) lalu stream jadi siap:
+         jangan biarkan pesannya nempel di atas video yang sudah jalan. */
+      var lambat = document.getElementById('pesan-lambat');
+      if (lambat) lambat.remove();
       clearInterval(tunggu);
     }
   }, 1000);
@@ -35,7 +39,8 @@
       div.id = 'pesan-lambat';
       div.setAttribute('style', 'position:absolute;z-index:50;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;font-family:system-ui,sans-serif;font-size:14px;line-height:1.6;padding:16px 20px;border-radius:12px;background:rgba(0,0,0,.78);max-width:90%');
       div.innerHTML = 'Stream masih dimuat. Kalau layar tetap kosong, tekan tombol di bawah.<br>'
-        + '<button onclick="location.reload()" style="margin-top:10px;padding:8px 18px;border:0;border-radius:8px;background:#ED2227;color:#fff;font-weight:600;font-size:14px">Muat ulang</button>';
+        + '<button onclick="location.reload()" style="margin-top:10px;padding:8px 18px;border:0;border-radius:8px;background:#ED2227;color:#fff;font-weight:600;font-size:14px">Muat ulang</button>'
+        + '<button onclick="this.parentNode.remove()" style="margin-top:10px;margin-left:8px;padding:8px 18px;border:0;border-radius:8px;background:#4b5158;color:#fff;font-weight:600;font-size:14px">Tutup</button>';
       kotak.appendChild(div);
       clearInterval(tunggu2);
     }, 1000);
